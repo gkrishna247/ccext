@@ -15,7 +15,7 @@ import zipfile
 # --- Configuration ---
 INPUT_CSV = 'phase2.csv'       # Input file with IDs to process
 OUTPUT_CSV = 'secret_codes_summary.csv'
-MAX_WORKERS = 100              # Number of parallel threads
+MAX_WORKERS = 30              # Number of parallel threads
 HTML_DIR = 'html_responses'    # Folder to save HTML files
 ASSETS_DIR = os.path.join(HTML_DIR, 'assets')  # Shared folder for assets
 ZIP_FILE = 'html_responses.zip'  # Zip file name
